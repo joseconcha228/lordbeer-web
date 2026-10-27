@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#17130e">
+<meta name="description" content="LORD BEER. Cervezas con carácter. Descubre nuestra variedad de sabores y contáctanos para consultas comerciales.">
+<title>LORD BEER | Cervezas con carácter</title>
+<style>
+:root{--gold:#d4ad62;--dark:#17130e;--cream:#f6f0e4}
+*{box-sizing:border-box}
+body{margin:0;background:var(--dark);color:var(--cream);font-family:Arial,sans-serif;line-height:1.6}
+header{text-align:center;padding:55px 20px 45px;border-bottom:1px solid #493a25}
+.logo{width:90px;height:90px;border:2px solid var(--gold);border-radius:50%;margin:auto;display:grid;place-items:center;color:var(--gold);font-size:23px;font-weight:bold;letter-spacing:2px}
+h1{font-size:clamp(38px,8vw,66px);letter-spacing:5px;color:var(--gold);margin:16px 0 0}
+.tagline{letter-spacing:3px;text-transform:uppercase;font-size:12px}
+nav{padding:14px;text-align:center;border-bottom:1px solid #493a25}
+nav a{color:var(--cream);text-decoration:none;margin:0 12px;font-size:14px}
+.hero{text-align:center;padding:65px 20px;background:radial-gradient(ellipse at center,#48351b 0%,var(--dark) 72%)}
+.hero h2{font-size:clamp(27px,5vw,43px);margin:0 0 12px}
+.hero p{max-width:580px;margin:0 auto 25px;color:#d9cfbd}
+.btn{display:inline-block;background:var(--gold);color:#17130e;text-decoration:none;padding:12px 23px;border-radius:3px;font-weight:bold}
+section{padding:45px 20px;max-width:1100px;margin:auto}
+.section-title{text-align:center;color:var(--gold);font-size:28px}
+.intro{text-align:center;color:#d9cfbd;max-width:650px;margin:0 auto 30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.card{border:1px solid #55452d;padding:22px 16px;text-align:center;background:#211b13;border-radius:5px}
+.bottle{height:100px;width:43px;margin:5px auto 18px;border:2px solid #b18a43;border-radius:9px 9px 6px 6px;background:linear-gradient(90deg,#65401a,#c08b35,#633b17);position:relative}
+.bottle:before{content:"";position:absolute;width:17px;height:22px;background:#b18a43;top:-22px;left:11px;border-radius:4px 4px 0 0}
+.bottle:after{content:"LB";position:absolute;top:35px;left:4px;width:31px;background:#f0dfb5;color:#342515;font-size:12px;font-weight:bold;padding:5px 0}
+.card h3{color:var(--gold);margin:5px 0}
+.card p{font-size:14px;color:#d9cfbd;margin:5px 0}
+.about{background:#211b13;border-top:1px solid #493a25;border-bottom:1px solid #493a25;text-align:center;max-width:none}
+.about-inner{max-width:750px;margin:auto}
+footer{text-align:center;padding:35px 20px;color:#c9bda8;font-size:13px}
+footer a{color:var(--gold)}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">LB</div>
+<h1>LORD BEER</h1>
+<div class="tagline">Cervezas con carácter</div>
+</header>
+<nav>
+<a href="#variedades">Variedades</a>
+<a href="#nosotros">Nuestra marca</a>
+<a href="#contacto">Contacto</a>
+</nav>
+<div class="hero">
+<h2>Un mundo de sabores</h2>
+<p>Descubre las variedades de LORD BEER. Tradición cervecera, personalidad y sabores para explorar.</p>
+<a class="btn" href="#variedades">Descubrir variedades</a>
+</div>
+<section id="variedades">
+<h2 class="section-title">Nuestras variedades</h2>
+<p class="intro">Conoce nuestra selección. Consulta disponibilidad y condiciones comerciales directamente con nosotros.</p>
+<div class="grid">
+<div class="card"><div class="bottle"></div><h3>Ámbar</h3><p>Carácter y personalidad.</p></div>
+<div class="card"><div class="bottle"></div><h3>Golden</h3><p>Un clásico para descubrir.</p></div>
+<div class="card"><div class="bottle"></div><h3>Calafate</h3><p>Inspirada en sabores del sur.</p></div>
+<div class="card"><div class="bottle"></div><h3>Chocolate</h3><p>Una propuesta de sabor intenso.</p></div>
+<div class="card"><div class="bottle"></div><h3>Frambuesa</h3><p>Una variedad frutal.</p></div>
+<div class="card"><div class="bottle"></div><h3>Maqui</h3><p>Inspiración en frutos nativos.</p></div>
+<div class="card"><div class="bottle"></div><h3>Mango</h3><p>Un perfil tropical.</p></div>
+<div class="card"><div class="bottle"></div><h3>Arándano</h3><p>Una alternativa frutal.</p></div>
+</div>
+</section>
+<section class="about" id="nosotros">
+<div class="about-inner">
+<h2 class="section-title">Nuestra marca</h2>
+<p>LORD BEER reúne una selección de variedades pensadas para quienes disfrutan explorar distintos sabores. Contáctanos para conocer nuestros productos y conversar sobre oportunidades comerciales.</p>
+</div>
+</section>
+<section id="contacto" style="text-align:center">
+<h2 class="section-title">Hablemos</h2>
+<p>¿Consultas, distribución o ventas comerciales?</p>
+<a class="btn" href="mailto:ventas@lordbeer.cl?subject=Consulta%20comercial%20LORD%20BEER">Contactar a LORD BEER</a>
+<p style="margin-top:20px">ventas@lordbeer.cl</p>
+</section>
+<footer>
+<p>LORD BEER · Cervezas con carácter</p>
+<p>Consulta disponibilidad y condiciones de venta. Venta exclusiva para mayores de edad.</p>
+</footer>
+</body>
+</html>
